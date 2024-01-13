@@ -1,11 +1,15 @@
+const sarahRoute = (req, res) => {
+    res.send('Sarah Birch');
+};
+
 const emilyRoute = (req, res) => {
     res.send('Emily Birch');
 };
 
-const hannaRoute = (req, res) => {
-    res.send('Hanna Birch');
+const hannahRoute = (req, res) => {
+    res.send('Hannah Birch');
 };
 
 module.exports = {
-    emilyRoute, hannaRoute
+    sarahRoute, emilyRoute, hannahRoute
 };
